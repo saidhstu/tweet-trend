@@ -11,7 +11,7 @@ environment {
     stages {
         stage('build') {
             steps {
-                sh 'mnv clean deploy'
+                sh 'mvn clean deploy'
             }
         }
     }
